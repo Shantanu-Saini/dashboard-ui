@@ -43,7 +43,7 @@ const Profile = () => {
                         value={profile.name}
                         onChange={handleChange}
                         readOnly={!isEditing}
-                        className={`mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm ${isEditing ? 'bg-white' : 'bg-gray-100'
+                        className={`mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm ${isEditing ? 'bg-gray-50' : 'bg-gray-100'
                             }`}
                     />
                 </div>
@@ -88,7 +88,7 @@ const Profile = () => {
                         value={profile.mobile}
                         onChange={handleChange}
                         readOnly={!isEditing}
-                        className={`mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm ${isEditing ? 'bg-white' : 'bg-gray-100'
+                        className={`mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm ${isEditing ? 'bg-gray-50' : 'bg-gray-100'
                             }`}
                     />
                 </div>
@@ -102,7 +102,7 @@ const Profile = () => {
                         value={profile.email}
                         onChange={handleChange}
                         readOnly={!isEditing}
-                        className={`mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm ${isEditing ? 'bg-white' : 'bg-gray-100'
+                        className={`mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm ${isEditing ? 'bg-gray-50' : 'bg-gray-100'
                             }`}
                     />
                 </div>

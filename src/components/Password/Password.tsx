@@ -35,7 +35,7 @@ const Password = () => {
                         type="password"
                         value={currentPassword}
                         onChange={(e) => setCurrentPassword(e.target.value)}
-                        className="w-full px-4 py-2 border rounded-md text-sm shadow-sm focus:outline-none"
+                        className="w-full px-4 py-2 border rounded-md text-sm shadow-sm focus:outline-none bg-gray-50"
                         required
                     />
                 </div>
@@ -49,7 +49,7 @@ const Password = () => {
                         type="password"
                         value={newPassword}
                         onChange={(e) => setNewPassword(e.target.value)}
-                        className="w-full px-4 py-2 border rounded-md text-sm shadow-sm focus:outline-none"
+                        className="w-full px-4 py-2 border rounded-md text-sm shadow-sm focus:outline-none bg-gray-50"
                         required
                     />
                 </div>
@@ -63,7 +63,7 @@ const Password = () => {
                         type="password"
                         value={confirmPassword}
                         onChange={(e) => setConfirmPassword(e.target.value)}
-                        className="w-full px-4 py-2 border rounded-md text-sm shadow-sm focus:outline-none"
+                        className="w-full px-4 py-2 border rounded-md text-sm shadow-sm focus:outline-none bg-gray-50"
                         required
                     />
                 </div>
