@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        "landing": 'url("./src/assets/bg-img.jpg")'
+        "landing": 'url("/bg-img.jpg")'
       },
       backgroundSize: {
         '100%': '100%',
