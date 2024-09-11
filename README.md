@@ -1,4 +1,4 @@
-# Dashboard UI - Sales Management
+# Dashboard UI
 
 This project is a **Sales Management Dashboard** built using **React**, **Tailwind CSS**, and **TypeScript**. It visualizes sales data over the last 12 months using charts and provides a user-friendly interface for managing product categories and sales information. The application is responsive and designed with a focus on providing essential insights into sales data.
 
