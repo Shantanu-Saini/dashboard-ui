@@ -9,7 +9,7 @@ const Categories = () => {
         responsive: true,
         plugins: {
             legend: {
-                position: 'top',
+                position: 'top' as const,
                 labels: {
                     padding: 10,
                 }
