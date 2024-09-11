@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+# Dashboard UI - Sales Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **Sales Management Dashboard** built using **React**, **Tailwind CSS**, and **TypeScript**. It visualizes sales data over the last 12 months using charts and provides a user-friendly interface for managing product categories and sales information. The application is responsive and designed with a focus on providing essential insights into sales data.
 
-Currently, two official plugins are available:
+## 🔗 [Live Demo](https://dashboard-ui-s.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Product Categories Overview**: A pie chart visualizing the distribution of product categories.
+- **Sales Over Time**: A bar chart that tracks monthly sales for the past 12 months.
+- **Responsive Design**: Adapts to mobile and desktop screens, ensuring a smooth user experience across devices.
+- **Tailored Insights**: The dashboard provides a clear view of monthly sales, making it easier to track trends and performance.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **TypeScript**: A statically typed language for writing more reliable and scalable code.
+- **Chart.js**: A charting library that provides responsive, customizable charts.
+- **React Chart.js 2**: A React wrapper for Chart.js, which integrates seamlessly with the React ecosystem.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Tech Stack
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Frontend**: 
+  - React
+  - TypeScript
+  - Tailwind CSS
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Charts**:
+  - React Chart.js 2
+  - Chart.js
+  
+- **Deployment**:
+  - Netlify
+    - [link](https://dashboard-ui-s.netlify.app)
