@@ -19,7 +19,7 @@ const Navbar = () => {
                     <Link className="block text-gray-800" to="/">
                         <div className="flex items-center space-x-3 cursor-pointer">
                             <Logo className="text-4xl" />
-                            <h1 className="text-xl font-medium text-gray-800">LOGO</h1>
+                            <h1 className="text-xl font-medium text-gray-800">Shopkart</h1>
                         </div>
                     </Link>
                     <nav className="hidden md:block">

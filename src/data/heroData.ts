@@ -1,7 +1,7 @@
 export const heroData = {
-    title: "VirtualR build tools",
-    highlightedText: "for developers",
-    description: "Empower your creativity and bring your VR app ideas to life with our intuitive development tools. Get started today and turn your imagination into immersive reality!",
-    buttonText: "Book Free Demo",
+    title: "Shopkart - Your Ultimate",
+    highlightedText: "Online Shopping Hub",
+    description: "Discover a seamless shopping experience with our vast collection of products. Shop now and transform the way you find your favorites from fashion to gadgets!",
+    buttonText: "Start Shopping",
     buttonLink: "#"
 };

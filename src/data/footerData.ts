@@ -1,7 +1,7 @@
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 
 export const footerData = {
-    logo: "LOGO",
+    logo: "Shopkart",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium natus quod eveniet aut perferendis distinctio iusto repudiandae, provident velit earum?",
     aboutLinks: [
         { label: "About", href: "#" },

@@ -1,4 +1,4 @@
-import { heroData } from "../../data/heroData"; 
+import { heroData } from "../../data/heroData";
 
 const Hero = () => {
     return (
@@ -16,11 +16,12 @@ const Hero = () => {
             <div className="flex justify-center my-10" data-aos='slide-up'>
                 <a
                     href={heroData.buttonLink}
-                    className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md text-white"
+                    className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md text-white transition-transform duration-300 ease-in-out hover:from-orange-800 hover:to-orange-500"
                 >
                     {heroData.buttonText}
                 </a>
             </div>
+
         </div>
     );
 };
