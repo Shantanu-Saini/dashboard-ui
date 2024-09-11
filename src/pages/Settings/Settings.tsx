@@ -11,7 +11,7 @@ const Settings = () => {
 
   return (
     <div className="min-h-screen flex">
-      {/* Sidebar (Mobile Toggle) */}
+      {/* Sidebar Mobile */}
       <button
         className="md:hidden fixed z-50 top-20 left-4 p-2 bg-gray-100 rounded-full shadow-lg"
         onClick={() => setIsSidebarOpen(!isSidebarOpen)}
@@ -35,7 +35,7 @@ const Settings = () => {
               }`}
             onClick={() => {
               setActiveSection('profile');
-              setIsSidebarOpen(false); // Close sidebar on mobile after clicking
+              setIsSidebarOpen(false);
             }}
           >
             Profile
@@ -45,7 +45,7 @@ const Settings = () => {
               }`}
             onClick={() => {
               setActiveSection('password');
-              setIsSidebarOpen(false); // Close sidebar on mobile after clicking
+              setIsSidebarOpen(false);
             }}
           >
             Password
@@ -63,7 +63,7 @@ const Settings = () => {
         {activeSection === 'profile' ? <Profile /> : <Password />}
       </div>
 
-      {/* Overlay For closing sidebar when clicking outside on mobile */}
+      {/* Overlay */}
       {isSidebarOpen && (
         <div
           className="fixed inset-0 bg-black bg-opacity-50 z-30 md:hidden"

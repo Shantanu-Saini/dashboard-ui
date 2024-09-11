@@ -8,7 +8,6 @@ const Password = () => {
 
     const handlePasswordChange = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        // Add password change logic here (e.g., send data to backend)
         console.log({
             currentPassword,
             newPassword,

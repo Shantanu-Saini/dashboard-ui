@@ -2,16 +2,10 @@ import { useState } from 'react';
 import { profileData } from '../../data/profileData';
 
 const Profile = () => {
-    // Profile data
     const [profile, setProfile] = useState(profileData.defaultProfile);
-
-    // Edit mode state
     const [isEditing, setIsEditing] = useState(false);
-
-    // Backup state for cancel action
     const [backupProfile, setBackupProfile] = useState(profile);
 
-    // Handle form changes
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
         setProfile((prevProfile:any) => ({
@@ -20,21 +14,18 @@ const Profile = () => {
         }));
     };
 
-    // Enable editing
     const enableEditing = () => {
-        setBackupProfile(profile); // Backup current state
+        setBackupProfile(profile);
         setIsEditing(true);
     };
 
-    // Handle save action
     const handleSave = () => {
         console.log("Updated Profile: ", profile);
         setIsEditing(false);
     };
 
-    // Handle cancel action
     const handleCancel = () => {
-        setProfile(backupProfile); // Revert to original state
+        setProfile(backupProfile);
         setIsEditing(false);
     };
 
@@ -52,7 +43,7 @@ const Profile = () => {
                         value={profile.name}
                         onChange={handleChange}
                         readOnly={!isEditing}
-                        className={`mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:border-blue-300 sm:text-sm ${isEditing ? 'bg-white' : 'bg-gray-100'
+                        className={`mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm ${isEditing ? 'bg-white' : 'bg-gray-100'
                             }`}
                     />
                 </div>
@@ -97,7 +88,7 @@ const Profile = () => {
                         value={profile.mobile}
                         onChange={handleChange}
                         readOnly={!isEditing}
-                        className={`mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:border-blue-300 sm:text-sm ${isEditing ? 'bg-white' : 'bg-gray-100'
+                        className={`mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm ${isEditing ? 'bg-white' : 'bg-gray-100'
                             }`}
                     />
                 </div>
@@ -111,7 +102,7 @@ const Profile = () => {
                         value={profile.email}
                         onChange={handleChange}
                         readOnly={!isEditing}
-                        className={`mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:border-blue-300 sm:text-sm ${isEditing ? 'bg-white' : 'bg-gray-100'
+                        className={`mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none sm:text-sm ${isEditing ? 'bg-white' : 'bg-gray-100'
                             }`}
                     />
                 </div>

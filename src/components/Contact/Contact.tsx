@@ -16,7 +16,6 @@ const Contact = () => {
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        // Add send message logic here (e.g., send data to backend)
         console.log(formData);
     };
 

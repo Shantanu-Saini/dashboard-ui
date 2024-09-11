@@ -5,13 +5,12 @@ const Faqs = () => {
 
     const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-    // Toggle the open state of a question
     const toggleQuestion = (index: number) => {
         setOpenIndex(openIndex === index ? null : index);
     };
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen min-w-full mx-auto my-6 px-2 sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center justify-center min-h-fit min-w-full mx-auto my-8 px-2 sm:px-6 lg:px-8">
             <h1 className="text-3xl font-bold mb-6" data-aos='slide-up'>FAQ</h1>
             <div className="space-y-4 bg-white p-8 sm:w-5/6 w-full">
                 {faqData.map((faq, index) => (
