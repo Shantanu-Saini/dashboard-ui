@@ -34,7 +34,7 @@ const Contact = () => {
                         placeholder={contactData.fields.name.placeholder}
                         value={formData.name}
                         onChange={handleInputChange}
-                        className="w-full px-4 py-2 border rounded-md focus:outline-none"
+                        className="w-full px-4 py-2 border rounded-md focus:outline-none bg-gray-50"
                         required
                     />
                 </div>
@@ -49,7 +49,7 @@ const Contact = () => {
                         placeholder={contactData.fields.email.placeholder}
                         value={formData.email}
                         onChange={handleInputChange}
-                        className="w-full px-4 py-2 border rounded-md focus:outline-none"
+                        className="w-full px-4 py-2 border rounded-md focus:outline-none bg-gray-50"
                         required
                     />
                 </div>
@@ -64,14 +64,14 @@ const Contact = () => {
                         value={formData.message}
                         onChange={handleInputChange}
                         rows={4}
-                        className="w-full px-4 py-2 border rounded-md focus:outline-none"
+                        className="w-full px-4 py-2 border rounded-md focus:outline-none bg-gray-50"
                         required
                     />
                 </div>
                 <div className="w-full flex items-center justify-center">
                     <button
                         type="submit"
-                        className="flex items-center justify-center px-4 py-2 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition"
+                        className="flex items-center justify-center px-4 py-2 bg-[#0134ec] text-white font-medium rounded-md hover:bg-blue-600 transition"
                     >
                         <FaPaperPlane className="mr-2" />
                         {contactData.buttonText}

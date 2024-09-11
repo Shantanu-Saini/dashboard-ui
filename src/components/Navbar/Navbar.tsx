@@ -16,12 +16,12 @@ const Navbar = () => {
         <header className="sticky top-0 z-40 py-3 backdrop-blur-lg border-b border-neutral-700/80 shadow-md">
             <div className="mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-3 cursor-pointer">
-                        <Link className="block text-gray-800" to="/">
+                    <Link className="block text-gray-800" to="/">
+                        <div className="flex items-center space-x-3 cursor-pointer">
                             <Logo className="text-4xl" />
-                        </Link>
-                        <h1 className="text-xl font-medium text-gray-800">LOGO</h1>
-                    </div>
+                            <h1 className="text-xl font-medium text-gray-800">LOGO</h1>
+                        </div>
+                    </Link>
                     <nav className="hidden md:block">
                         <ul className="flex items-center space-x-6 text-base">
                             {navLinks.map(({ path, label }) => (

@@ -76,7 +76,7 @@ const Users = () => {
                         <li key={index}>
                             <button
                                 onClick={() => setCurrentPage(index + 1)}
-                                className={`block size-8 rounded border ${currentPage === index + 1 ? 'border-blue-600 bg-blue-600 text-white' : 'border-gray-100 bg-white text-gray-900'}`}
+                                className={`block size-8 rounded border ${currentPage === index + 1 ? ' bg-[#0134ec] text-white' : 'border-gray-100 bg-white text-gray-900'}`}
                             >
                                 {index + 1}
                             </button>

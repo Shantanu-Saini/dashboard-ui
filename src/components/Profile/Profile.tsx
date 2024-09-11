@@ -113,7 +113,7 @@ const Profile = () => {
                 {!isEditing ? (
                     <button
                         onClick={enableEditing}
-                        className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
+                        className="px-4 py-2 bg-[#0134ec] text-white rounded-md hover:bg-blue-600"
                     >
                         {profileData.buttons.edit}
                     </button>
@@ -121,13 +121,13 @@ const Profile = () => {
                     <div className="space-x-4">
                         <button
                             onClick={handleSave}
-                            className="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600"
+                            className="px-4 py-2 bg-[#0134ec] text-white rounded-md hover:bg-blue-600"
                         >
                             {profileData.buttons.save}
                         </button>
                         <button
                             onClick={handleCancel}
-                            className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600"
+                            className="px-4 py-2 bg-white text-[#0134ec] border border-[#0134ec] rounded-md hover:bg-gray-50"
                         >
                             {profileData.buttons.cancel}
                         </button>

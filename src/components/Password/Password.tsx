@@ -72,14 +72,14 @@ const Password = () => {
                 <div className="flex items-center space-x-4">
                     <button
                         type="submit"
-                        className="bg-indigo-600 text-white py-2 px-4 rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none"
+                        className="bg-[#0134ec] text-white py-2 px-4 rounded-md shadow-sm hover:bg-blue-600 focus:outline-none"
                     >
                         {passwordData.changeButtonText}
                     </button>
 
                     <button
                         type="button"
-                        className="py-2 px-4 border border-gray-300 rounded-md shadow-sm text-gray-700 hover:bg-gray-100 focus:outline-none"
+                        className="py-2 px-4 border border-[#0134ec] rounded-md shadow-sm text-[#0134ec] hover:bg-gray-50 focus:outline-none"
                         onClick={handleCancel}
                     >
                         {passwordData.cancelButtonText}
@@ -89,7 +89,7 @@ const Password = () => {
 
             {/* Forgot Password */}
             <div className="mt-6 text-right">
-                <a href={passwordData.forgotPasswordLink} className="text-sm text-indigo-600 hover:underline">
+                <a href={passwordData.forgotPasswordLink} className="text-sm text-[#0134ec] hover:underline">
                     {passwordData.forgotPasswordText}
                 </a>
             </div>

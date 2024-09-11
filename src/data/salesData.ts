@@ -30,8 +30,7 @@ export const salesData = {
                 2500,  // Sales for November    
                 2700   // Sales for December
             ],
-            backgroundColor: 'rgba(75, 192, 192, 0.9)',
-            borderColor: 'rgba(75, 192, 192, 1)',
+            backgroundColor: '#0134ec',
             borderWidth: 1
         }
     ]
