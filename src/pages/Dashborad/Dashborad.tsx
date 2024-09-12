@@ -8,7 +8,7 @@ const Dashboard = () => {
   const tabs = ["Sales", "Categories", "Users"];
 
   return (
-    <div className="flex flex-col items-center justify-start min-h-screen mx-auto px-4 sm:px-6 lg:px-8 space-y-8 py-4">
+    <div className="flex flex-col items-center justify-start min-h-screen mx-auto px-4 sm:px-6 lg:px-8 space-y-8 pb-16 pt-8">
       {/* Tabs to select */}
       <div className="w-5/6 border rounded-md p-2 sm:text-lg text-sm bg-gray-50">
         <ul className="flex items-center justify-around">
