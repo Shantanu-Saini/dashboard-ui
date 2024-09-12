@@ -41,7 +41,7 @@ const Categories = () => {
     return (
         <div className="flex items-center flex-col justify-center space-y-4 p-4">
             {/* Insights */}
-            <div className='flex items-center justify-between w-full space-x-4'>
+            <div className='flex flex-col sm:flex-row items-center justify-between w-full gap-4'>
                 <div className="bg-gray-200 text-blue-900 p-4 rounded-md shadow-md w-full max-w-md text-center">
                     <h2 className="text-lg font-semibold">Total Products Sold</h2>
                     <p className="text-2xl font-bold">{totalProducts}</p>
