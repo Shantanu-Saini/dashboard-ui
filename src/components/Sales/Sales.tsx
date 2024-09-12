@@ -48,7 +48,7 @@ const SalesChart = () => {
     };
 
     return (
-        <div className="flex items-center flex-col justify-start space-y-4 px-4 pb-8 min-h-fit">
+        <div className="flex items-center flex-col justify-start space-y-4 px-1 pb-8 min-h-fit">
             {/* Total Sales Box */}
             <div className='flex flex-col sm:flex-row items-center justify-between w-full gap-4'>
                 <div className="bg-gray-200 text-blue-900 p-4 rounded-md shadow-md w-full max-w-md text-center">
