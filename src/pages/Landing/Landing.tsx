@@ -5,7 +5,7 @@ import Hero from "../../components/Hero/Hero"
 
 const Landing = () => {
     return (
-        <div>
+        <div className="bg-gray-100">
             <Hero />
             <Features />
             <Faqs />

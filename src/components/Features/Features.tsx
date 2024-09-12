@@ -2,7 +2,7 @@ import { featuresData } from "../../data/featuresData";
 
 const Features = () => {
     return (
-        <div className="mx-auto max-w-screen-xl px-4 py-8  sm:px-6 lg:px-8" data-aos='slide-up'>
+        <div className="mx-auto max-w-screen-xl px-4 py-8  sm:px-6 lg:px-8 bg-gray-100" data-aos='slide-up'>
             <h2 className="text-3xl font-bold text-center mb-8">Our Features</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
                 {featuresData.map((feature) => (

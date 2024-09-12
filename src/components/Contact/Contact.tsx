@@ -20,7 +20,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center mx-auto px-2 sm:px-6 lg:px-8" data-aos='slide-up'>
+        <div className="flex flex-col items-center justify-center mx-auto px-2 sm:px-6 lg:px-8 py-4" data-aos='slide-up'>
             <h1 className="text-3xl font-bold mb-6">{contactData.title}</h1>
             <form onSubmit={handleSubmit} className="bg-white p-8 sm:w-3/4 w-full">
                 <div className="mb-4">

@@ -39,7 +39,7 @@ const SalesChart = () => {
     return (
         <div className="flex items-center flex-col justify-start space-y-4 px-4 pb-8 min-h-fit">
             {/* Total Sales Box */}
-            <div className="bg-gray-100 text-blue-900 p-4 rounded-md shadow-md w-full max-w-md text-center">
+            <div className="bg-gray-200 text-blue-900 p-4 rounded-md shadow-md w-full max-w-md text-center">
                 <h2 className="text-lg font-semibold">Total Sales (Last 12 Months)</h2>
                 <p className="text-2xl font-bold">{totalSales}</p>
             </div>

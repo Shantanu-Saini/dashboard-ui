@@ -10,7 +10,7 @@ const Faqs = () => {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-fit min-w-full mx-auto my-8 px-2 sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center justify-center min-h-fit min-w-full mx-auto my-8 px-2 sm:px-6 lg:px-8 bg-gray-100">
             <h1 className="text-3xl font-bold mb-6" data-aos='slide-up'>FAQ</h1>
             <div className="space-y-4 bg-white p-8 sm:w-5/6 w-full">
                 {faqData.map((faq, index) => (

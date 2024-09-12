@@ -21,7 +21,7 @@ const Settings = () => {
 
       {/* Sidebar */}
       <div
-        className={`fixed inset-y-0 left-0 z-40 sm:z-30 w-2/3 md:w-1/6 bg-gray-100 px-12 py-10 transform md:relative md:translate-x-0 transition-transform duration-300 ease-in-out ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
+        className={`fixed inset-y-0 left-0 z-40 sm:z-30 w-2/3 md:w-1/6 bg-gray-200 px-12 py-10 transform md:relative md:translate-x-0 transition-transform duration-300 ease-in-out ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
           }`}
       >
         <div className="flex items-center space-x-3 mb-8">
@@ -59,7 +59,7 @@ const Settings = () => {
       </div>
 
       {/* Main Content Area */}
-      <div className="flex-grow p-8 ml-0 md:ml-1/6">
+      <div className="flex-grow p-8 ml-0 md:ml-1/6 bg-gray-100">
         {activeSection === 'profile' ? <Profile /> : <Password />}
       </div>
 
